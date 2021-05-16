@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Angela Dalmacio &#8211; LEARN and SHARE with Argon 40</title>
+	<atom:link href="https://www.argon40.com/learn/index.php/author/admin5/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.argon40.com/learn</link>
+	<description>Imagine. Create. Share.</description>
+	<lastBuildDate>Mon, 10 Aug 2020 05:54:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>Building a Robot Buggy Pi</title>
+		<link>https://www.argon40.com/learn/index.php/2020/05/19/building-a-robot-buggy-pi/</link>
+					<comments>https://www.argon40.com/learn/index.php/2020/05/19/building-a-robot-buggy-pi/#comments</comments>
+		
+		<dc:creator><![CDATA[Angela Dalmacio]]></dc:creator>
+		<pubDate>Tue, 19 May 2020 02:14:12 +0000</pubDate>
+				<category><![CDATA[How to's]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.argon40.com/learn/?p=424</guid>
+
+					<description><![CDATA[One of the simplest classic projects a maker can spend their time on is building a robot buggy with the Raspberry Pi. If somebody told me I could build robots with the Raspberry Pi, I would have gotten into it sooner! This article will show you how you can build a robot buggy and program [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>One of the simplest classic projects a maker can spend their time on is building a robot buggy with the Raspberry Pi. If somebody told me I could build robots with the Raspberry Pi, I would have gotten into it sooner! This article will show you how you can build a robot buggy and program it to move around under your control with simple Python commands!</p>
+
+
+
+<p>Materials needed:</p>
+
+
+
+<ul><li>Raspberry Pi 3</li><li>Motor controller board</li><li>2 × 3V &#8211; 6V DC motors</li><li>2 × wheels</li><li>1 × AA battery holder (for 4 AA batteries)</li><li>4 × AA batteries</li><li>Ball caster</li><li>Wire or jumper leads</li><li>A USB Battery pack</li><li>Screwdriver</li><li>Soldering iron and solder</li><li>Wire strippers</li><li>Small cardboard or plastic box and glue/tape</li></ul>
+
+
+
+<p>Optional materials:</p>
+
+
+
+<ul><li>Breadboard</li><li>VL53L0X time-of-flight range finder or ultrasonic distance sensor</li><li>2 × line following sensors</li><li>18650 battery, battery clip, USB charge/discharge board (or USB power bank)</li></ul>
+
+
+
+<p>Software:</p>
+
+
+
+<ul><li>The latest version of Raspbian</li></ul>
+
+
+
+<p>Additional Extras:</p>
+
+
+
+<ul><li>Small cardboard box</li><li>Adhesives (duct tape/putty/glue)</li></ul>
+
+
+
+<p><strong>Assembling your motors and board</strong></p>
+
+
+
+<p>The first step to building your robot buggy pi is connecting the motor controller to the Raspberry Pi, the battery pack, and your two motors. This will test if your components are all working properly. For this project, we will be using the L298N Dual H Bridge DC Stepper Motor Driver Controller board. Don’t worry if you don’t have the exact model that will be used in this article, because these instructions will be applicable to most motor controller boards. You can check your board’s documentation if you are using a different model.</p>
+
+
+
+<p><strong>Soldering wires to your motors</strong></p>
+
+
+
+<p>If you have managed to buy motors that have wires, you can skip this part! However, most motors on the market do not have wires attached to them so you will need to solder them on yourself.</p>
+
+
+
+<ol type="1"><li>Strip the ends of your wires to reveal the metal core</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/strip-wire.jpg" alt="strip wires"/></figure>
+
+
+
+<ul><li>For easier soldering, take the plastic clip off from your motor (you can use a screwdriver for this).</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor-remove-clip.jpg" alt="remove clip"/></figure>
+
+
+
+<ul><li>Solder your wires to the terminals of your motor and reattach the plastic clips you removed earlier.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/solder-motor.gif" alt="solder wires"/></figure>
+
+
+
+<ul><li>In order to ensure that the wires do not touch the motor’s metal casing, trim them off. You may also wrap the ends of your motors with tape for durability.</li></ul>
+
+
+
+<p><strong>Connecting the Motors to the Board</strong></p>
+
+
+
+<p>Ready your small screwdriver to connect your motors to your board.</p>
+
+
+
+<ol type="1"><li>Proceed to loosen the screws in terminal blocks OUT1, OUT2, OUT3, and OUT4. If your terminal blocks are labeled differently, consult the documentation for your board.</li><li>Strip the ends of the wires and insert the stripped ends into the terminal blocks. If needed, you may cut off the male/female ends.</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/wires-in-board.jpg" alt="inserted wires"/></figure>
+
+
+
+<ul><li>Tighten the screws to the terminal blocks to ensure that the wires stay in place.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/wire-in-block.jpg" alt="terminal block"/></figure>
+
+
+
+<p><strong>Powering the Motors</strong></p>
+
+
+
+<p>The raspberry Pi alone will not be able to supply enough power for your motors. This is where your AA batteries come in!</p>
+
+
+
+<ol type="1"><li>Grab your screwdriver and loosen the screws for terminal blocks VCC, GND, and 5V.</li><li>With your AA battery holder in-hand, insert the red wire into terminal block VCC and the black wire into terminal block GND (these are not interchangeable).</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/battery-holder.jpg" alt="battery holder"/></figure>
+
+
+
+<ul><li>Once again, tighten the screws to ensure that your wires stay in place.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/battery-terminals.jpg" alt="battery terminals"/></figure>
+
+
+
+<p><strong>Connecting the Board to your Raspberry Pi</strong></p>
+
+
+
+<p>You will need to wire the board to the Raspberry Pi for this project to work. There are boards that will require you to follow a different procedure for connecting, and there are boards that act as a hat that you can simply place onto the Raspberry Pi GPIO pins. You may check your board’s documentation if you are not using a different board than the one being used in this article.</p>
+
+
+
+<p>For our board, we will be utilizing pins labeled In1, In2, In3, and In4 as well as the two GND pins. The GPIO pins that you will be using on your Raspberry Pi is completely up to you! In this article, we will be using GPIO 7, 8, 9, and 10.</p>
+
+
+
+<ol type="1"><li>Grab the five female-to-female jumper leads and connect your preferred Raspberry Pi GPIO pins to the motor controller board pins. If the board you’re using does not have a GND pin, you may strip the end of a female-to-female and insert it into terminal block GND that supplies your battery pack. Make sure it’s secure!</li></ol>
+
+
+
+<p>The connections are as follows:</p>
+
+
+
+<p>7 – In1</p>
+
+
+
+<p>8 – In2</p>
+
+
+
+<p>9 – In3</p>
+
+
+
+<p>10 – In4</p>
+
+
+
+<p>GND – GND</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/gpio-board.jpg" alt="GPIO to board"/></figure>
+
+
+
+<p><strong>Configuring Directions</strong></p>
+
+
+
+<p>It is time to assign a direction to your motors! To configure your left and right motors, you will need to know which way they go forward and which way they go backwards.</p>
+
+
+
+<ol type="1"><li>Pick one of your motors and use a marker pen to label it ‘right.’ You will want to draw an arrow to configure which way it will go forward. Repeat this process with your other motor but label it ‘left.’</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motors_labelled.jpg" alt="labeled motors"/></figure>
+
+
+
+<ul><li>Open <strong>mu</strong> (this can be found in the Raspberry Pi programming menu), and type</li></ul>
+
+
+
+<pre class="wp-block-preformatted">from gpiozero import Robot
+robby = Robot(left=(7,8), right=(9,10))</pre>
+
+
+
+<p><br>in order to import the Robot class and create a Robot project. ‘Robby’ stands for the robot’s name, but you can name it whatever you want to name it!</p>
+
+
+
+<ul><li>Save the file as ‘robby.py’ or whatever you decided to name your robot.</li><li>Click <strong>Run</strong>!</li><li>Now open a python shell (do this by clicking the terminal icon located in the taskbar, which is at the top of the screen), type ‘python,’ and press <strong>Enter</strong>.</li><li>Type</li></ul>
+
+
+
+<pre class="wp-block-preformatted">robby.forward()</pre>
+
+
+
+<p>to find out which way the motors turn. If you wish to stop them, type</p>
+
+
+
+<pre class="wp-block-preformatted">robot.stop()</pre>
+
+
+
+<ul><li>This next step will allow you to determine which motor is left and right. Type</li></ul>
+
+
+
+<pre class="wp-block-preformatted">robby.forward(0.4)<br>robby.right(0.4)</pre>
+
+
+
+<p> to do this (the 0.4 will make the motor go slower than usual, and make      it easier for you to see which way they turn). The motor that changes direction is the right-hand motor.</p>
+
+
+
+<ul><li>If you guessed correctly and right-hand motor is indeed the motor you labeled ‘right,’ then you do not have to changed anything. However, if the right-hand motor is the one you labeled ‘left,’ then you will need to change your Robot object in your file to swap the left and right pin numbers:</li></ul>
+
+
+
+<pre class="wp-block-preformatted">## e.g. change<br>robby = Robot(left=(7,8), right=(9,10))</pre>
+
+
+
+<pre class="wp-block-preformatted">## to<br>robby = Robot(left=(9,10), right=(7,8))</pre>
+
+
+
+<ul><li>We will now proceed to check if you have the forward and backward movements set up correctly. Again, drive both of your motors forward with robby.forward(0.4) and check if both motors are turning as follows:</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor-test.gif" alt="direction of motors"/></figure>
+
+
+
+<p>If the right-hand motor isn’t turning as shown, you will have make another change.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor_direction.png" alt=""/></figure>
+
+
+
+<pre class="wp-block-preformatted">## e.g. change<br>robby = Robot(left=(9,10), right=(7,8))</pre>
+
+
+
+<pre class="wp-block-preformatted">## to<br>robby = Robot(left=(9,10), right=(8,7))</pre>
+
+
+
+<p>If the left-hand motor is turning in the wrong direction, however, do the same but replace the right-hand pin numbers with the left-hand pin numbers.</p>
+
+
+
+<p><strong>Assembling the robot</strong></p>
+
+
+
+<p>Keep in mind that you do not have to follow these directions if you wish for your robot body to look differently. However, keep in mind that:</p>
+
+
+
+<ul><li>The body needs to be big enough for the Raspberry Pi, the motor controller, and the batteries to fit into.</li><li>The body needs to be able to accommodate mounting the wheels.</li></ul>
+
+
+
+<p>The Raspberry Pi website recommends that you build a prototype chassis first in order to grasp a feel of what an appropriate robot body is. You can then learn to make better bodies with laser-cutting or 3D printing! This article, however, will utilize a cardboard box for now.</p>
+
+
+
+<ol type="1"><li>Place your motors into the box, preferably arranged in the way you want them to stay in permanently. Mark where you want the motors’ axle to pass through—and make sure your wheels have enough room to spin around!</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-0.jpg" alt="chassis-1"/></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-1.jpg" alt="chassis-2"/></figure>
+
+
+
+<ul><li>Poke holes through the sides of the box where you will fit the motors’ axles into.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-2.jpg" alt="chassis-3"/></figure>
+
+
+
+<ul><li>To make sure the motors are held in place, use an adhesive putty or tape to secure them.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-3.jpg" alt="chassis-4"/></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-4.jpg" alt="chassis-5"/></figure>
+
+
+
+<ul><li>When you are content with the motor placement, proceed to attach the wheels to the axles.</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-5.jpg" alt="chassis-6"/></figure>
+
+
+
+<ul><li>Once you have attached the wheels, you can screw a ball caster at the front section as a third wheel!</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-6.jpg" alt="chassis-7"/></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-7.jpg" alt=""/></figure>
+
+
+
+<ul><li>You can use a power bank to power up your Raspberry Pi!</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-8.jpg" alt="chassis-8"/></figure>
+
+
+
+<p>Enjoy your Robot Buggy Pi!</p>
+
+
+
+<p></p>
+
+
+
+<p><em>All images were taken from <a href="https://www.raspberrypi.org/">https://www.raspberrypi.org/</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.argon40.com/learn/index.php/2020/05/19/building-a-robot-buggy-pi/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: argon40.com @ 2021-04-23 03:38:11 by W3 Total Cache
+-->
