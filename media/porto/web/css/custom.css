@@ -342,7 +342,7 @@ body>p{display:none}
 .product-info-main .custom-block i{font-size:34px;display:inline-block;vertical-align:middle}
 .product-info-main .custom-block .text-area{display:inline-block;vertical-align:middle;text-align:left;margin-left:5px}
 .product-info-main .custom-block .text-area h3{font-size:14px;font-weight:400;line-height:1.35;color:#7a7d82;margin:0;margin-bottom:5px}
-@media (min-width:768px){.filterproducts-tab .data.items{position:relative;z-index:1;border-bottom:0;margin-left:0;margin-right:0;background:url(../images/slider-bar.html) right 10px no-repeat}
+@media (min-width:768px){.filterproducts-tab .data.items{position:relative;z-index:1;border-bottom:0;margin-left:0;margin-right:0;background:url(../images/slider-bar.png) right 10px no-repeat}
 .filterproducts-tab .data.items:after,.filterproducts-tab .data.items:before{content:'';display:table}
 .filterproducts-tab .data.items:after{clear:both}
 .filterproducts-tab .data.items>.item.title{float:left;width:auto;margin:0;padding:0;background-color:#fff}
@@ -392,7 +392,7 @@ body>p{display:none}
 .f-right{float:right!important}
 .abs-action-button-as-link:hover,.abs-action-remove:hover,.abs-add-fields .action.remove:hover,.abs-discount-block .action.check:hover,.action-auth-toggle:hover,.block.related .action.select:hover,.bundle-options-container .action.back:hover,.cart-discount .action.check:hover,.cart.table-wrapper .action.help.map:hover,.cart.table-wrapper .actions-toolbar>.action-delete:hover,.checkout-agreements-block .action-show:hover,.checkout-index-index .modal-popup .modal-footer .action-hide-popup:hover,.checkout-payment-method .payment-method-billing-address .action-cancel:hover,.checkout-payment-method .payment-method-billing-address .billing-address-details .action-edit-address:hover,.form-add-invitations .action.remove:hover,.form-create-return .action.remove:hover,.form-giftregistry-edit .action.remove:hover,.form-giftregistry-share .action.remove:hover,.form.send.friend .action.remove:hover,.gift-options .actions-toolbar .action-cancel:hover,.gift-summary .action-delete:hover,.gift-summary .action-edit:hover,.gift-wrapping-title .action-remove:hover,.opc-block-shipping-information .shipping-information-title .action-edit:hover,.opc-wrapper .edit-address-link:hover,.paypal-button-widget .paypal-button:hover,.paypal-review-discount .action.check:hover,.popup .actions-toolbar .action.cancel:hover,.wishlist.split.button>.action:hover{text-decoration:none}
 .checkout-container{min-height:400px}
-body.boxed{padding:24px 0 17px;background:url(https://www.argon40.com.br/media/porto/web/images/boxed_bg.png) repeat}
+body.boxed{padding:24px 0 17px;background:url(../images/boxed_bg.png) repeat}
 body.boxed .page-wrapper{width:1140px;max-width:100%;margin:0 auto;border-radius:8px;background-color:#fff}
 .fotorama .fotorama__fullscreen-icon{display:block}
 .fotorama .fotorama-sprite,.fotorama .fotorama__arr .fotorama__arr__arr,.fotorama .fotorama__fullscreen-icon,.fotorama .fotorama__thumb__arr,.fotorama__fullscreen .fotorama .fotorama__zoom-in,.fotorama__fullscreen .fotorama .fotorama__zoom-out{background:0 0;color:#08c}
@@ -1713,7 +1713,7 @@ body.page-print header.page-header,body.page-print>div:not(.page-wrapper){displa
 #tooltip-label{display:none}
 .customer-welcome .action.switch{font-size:0}
 .customer-welcome .action.switch:hover{color:inherit}
-@font-face{font-family:porto-new-icons;src:url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.eot?79779384);src:url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.eot?79779384#iefix) format('embedded-opentype'),url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.woff2?79779384) format('woff2'),url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.woff?79779384) format('woff'),url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.ttf?79779384) format('truetype'),url(https://www.argon40.com.br/media/porto/web/icon-fonts/font/porto.svg?79779384#fontello) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:porto-new-icons;src:url(../icon-fonts/font/porto8110.eot?79779384);src:url(../icon-fonts/font/porto8110.eot?79779384#iefix) format('embedded-opentype'),url(../icon-fonts/font/porto8110.woff2?79779384) format('woff2'),url(../icon-fonts/font/porto8110.woff?79779384) format('woff'),url(../icon-fonts/font/porto8110.ttf?79779384) format('truetype'),url(../icon-fonts/font/porto8110.svg?79779384#fontello) format('svg');font-weight:400;font-style:normal}
 [class*=" porto-new-icon-"]:before,[class^=porto-new-icon-]:before{font-family:porto-new-icons;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .shop-by-cat-item.cat-has-icon{color:#222529;transition:all .3s;padding:0 10px}
 .shop-by-cat-item.cat-has-icon:hover{color:#08c}
@@ -1738,7 +1738,7 @@ body>.custom-html button.mfp-close:hover{color:#222529}
 body>.custom-html .mfp-close:after{content:'';position:absolute;height:17px;top:12px;left:20px;border-left:1px solid}
 body>.custom-html .mfp-close:before{content:'';position:absolute;width:17px;top:20px;left:12px;border-top:1px solid}
 .curved-border{position:relative;min-height:7.2vw}
-.curved-border:after{content:'';display:block;background-image:url(https://www.argon40.com.br/media/porto/web/images/curved-border.svg);background-size:100% 100%;background-position:center;position:absolute;left:0;bottom:-2px;width:100vw;height:7.2vw;z-index:2}
+.curved-border:after{content:'';display:block;background-image:url(../images/curved-border.svg);background-size:100% 100%;background-position:center;position:absolute;left:0;bottom:-2px;width:100vw;height:7.2vw;z-index:2}
 .curved-border.curved-border-top:after{top:-2px;bottom:auto;transform:rotateX(180deg)}
 .row.no-padding{margin:0}
 .row.no-padding>*{padding:0!important}

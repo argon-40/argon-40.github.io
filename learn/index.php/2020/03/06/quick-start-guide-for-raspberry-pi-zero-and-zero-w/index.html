@@ -1,0 +1,551 @@
+<!-- =========================
+     Page Breadcrumb   
+============================== -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Aug 2021 06:58:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>Raspberry Pi Zero and Zero W Quick Start Guide &#8211; LEARN and SHARE with Argon 40</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='../../../../../../index.html' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="LEARN and SHARE with Argon 40 &raquo; Feed" href="../../../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="LEARN and SHARE with Argon 40 &raquo; Comments Feed" href="../../../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="LEARN and SHARE with Argon 40 &raquo; Raspberry Pi Zero and Zero W Quick Start Guide Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.argon40.com.br\/learn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../../../../../wp-includes/css/dist/block-library/style.min41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-fonts-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C700%2C800%7CWork%2BSans%3A300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='../../../../../wp-content/themes/newsup/css/bootstrap41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-style-css'  href='../../../../../wp-content/themes/newsup/style41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-default-css'  href='../../../../../wp-content/themes/newsup/css/colors/default41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='../../../../../wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='../../../../../wp-content/themes/newsup/css/owl.carousel41a3.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmenus-css'  href='../../../../../wp-content/themes/newsup/css/jquery.smartmenus.bootstrap41a3.css?ver=5.8' type='text/css' media='all' />
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/navigation41a3.js?ver=5.8' id='newsup-navigation-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/bootstrap41a3.js?ver=5.8' id='bootstrap-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/owl.carousel.min41a3.js?ver=5.8' id='owl-carousel-min-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/jquery.smartmenus41a3.js?ver=5.8' id='smartmenus-js-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/jquery.smartmenus.bootstrap41a3.js?ver=5.8' id='bootstrap-smartmenus-js-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/jquery.marquee41a3.js?ver=5.8' id='newsup-main-js-js'></script>
+<link rel="https://api.w.org/" href="../../../../wp-json/index.html" /><link rel="alternate" type="application/json" href="../../../../wp-json/wp/v2/posts/151.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../../../../../indexe539.html?p=151' />
+<link rel="alternate" type="application/json+oembed" href="../../../../wp-json/oembed/1.0/embedb793.json?url=https%3A%2F%2Fwww.argon40.com.br%2Flearn%2Findex.php%2F2020%2F03%2F06%2Fquick-start-guide-for-raspberry-pi-zero-and-zero-w%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../../../wp-json/oembed/1.0/embed74f2?url=https%3A%2F%2Fwww.argon40.com.br%2Flearn%2Findex.php%2F2020%2F03%2F06%2Fquick-start-guide-for-raspberry-pi-zero-and-zero-w%2F&amp;format=xml" />
+<!-- Enter your scripts here --><link rel="pingback" href="../../../../../xmlrpc.php"></head>
+<body class="post-template-default single single-post postid-151 single-format-standard wp-embed-responsive  ta-hide-date-author-in-list elementor-default" >
+<div id="page" class="site">
+<a class="skip-link screen-reader-text" href="#content">
+Skip to content</a>
+    <div class="wrapper">
+        <header class="mg-headwidget">
+            <!--==================== TOP BAR ====================-->
+
+            <div class="mg-head-detail hidden-xs">
+    <div class="container-fluid">
+        <div class="row">
+                        <div class="col-md-6 col-xs-12 col-sm-6">
+                <ul class="info-left">
+                            <li>Mon. Aug 16th, 2021         </li>
+                    </ul>
+            </div>
+                        <div class="col-md-6 col-xs-12">
+                <ul class="mg-social info-right">
+                    
+                                      </ul>
+            </div>
+                    </div>
+    </div>
+</div>
+            <div class="clearfix"></div>
+                        <div class="mg-nav-widget-area-back" style='background-image: url("../../../../../../../argon40.com.br/learn/wp-content/uploads/2020/03/cropped-image-28.png" );'>
+                        <div class="overlay">
+              <div class="inner"  style="background-color:rgba(32,47,91,0.4);" > 
+                <div class="container-fluid">
+                    <div class="mg-nav-widget-area">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 text-center-xs">
+                                <div class="navbar-header">
+                                                                <div class="site-branding-text">
+                                <h1 class="site-title"> <a href="../../../../../index.html" rel="home">LEARN and SHARE with Argon 40</a></h1>
+                                <p class="site-description">Imagine. Create. Share.</p>
+                                </div>
+                                                              </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+          </div>
+    <div class="mg-menu-full">
+      <nav class="navbar navbar-expand-lg navbar-wp">
+        <div class="container-fluid flex-row-reverse">
+          <!-- Right nav -->
+                    <div class="m-header d-flex pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                                                <a class="mobilehomebtn" href="../../../../../index.html"><span class="fa fa-home"></span></a>
+                        <!-- navbar-toggle -->
+                        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbar-wp" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa fa-bars"></i>
+                        </button>
+                        <!-- /navbar-toggle -->
+                        <div class="dropdown show mg-search-box pr-2">
+                            <a class="dropdown-toggle msearch ml-auto" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <i class="fa fa-search"></i>
+                            </a>
+
+                            <div class="dropdown-menu searchinner" aria-labelledby="dropdownMenuLink">
+                        <form role="search" method="get" id="searchform" action="https://www.argon40.com.br/learn/">
+  <div class="input-group">
+    <input type="search" class="form-control" placeholder="Search" value="" name="s" />
+    <span class="input-group-btn btn-default">
+    <button type="submit" class="btn"> <i class="fa fa-search"></i> </button>
+    </span> </div>
+</form>                      </div>
+                        </div>
+                        
+                    </div>
+                    <!-- /Right nav -->
+         
+          
+                  <div class="collapse navbar-collapse" id="navbar-wp">
+                  	<div class="d-md-block">
+                  <ul id="menu-neve-web-agency-main-menu" class="nav navbar-nav mr-auto"><li class="active home"><a class="homebtn" href="../../../../../index.html"><span class='fa fa-home'></span></a></li><li id="menu-item-361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-361"><a href="../../../../../index.html">Home</a></li>
+<li id="menu-item-362" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-362"><a href="../../../../category/how-tos/index.html">How to&#8217;s</a></li>
+<li id="menu-item-363" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-363"><a href="../../../../category/features/index.html">Features</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-364"><a href="../../../../category/news/index.html">News</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-384"><a href="../../../../../../index.html">SHOP</a></li>
+</ul>        				</div>		
+              		</div>
+          </div>
+      </nav> <!-- /Navigation -->
+    </div>
+</header>
+<div class="clearfix"></div>
+ <!--==================== Newsup breadcrumb section ====================-->
+<!-- =========================
+     Page Content Section      
+============================== -->
+<main id="content">
+    <!--container-->
+    <div class="container-fluid">
+      <!--row-->
+      <div class="row">
+        <!--col-md-->
+                                                <div class="col-md-9">
+                    		                  <div class="mg-blog-post-box"> 
+              <div class="mg-header">
+                                <div class="mg-blog-category"> 
+                      <a class="newsup-categories category-color-1" href="../../../../category/how-tos/index.html" alt="View all posts in How to&#039;s"> 
+                                 How to&#039;s
+                             </a>                </div>
+                                <h1 class="title single"> <a title="Permalink to: Raspberry Pi Zero and Zero W Quick Start Guide">
+                  Raspberry Pi Zero and Zero W Quick Start Guide</a>
+                </h1>
+
+                <div class="media mg-info-author-block"> 
+                                    <a class="mg-author-pic" href="../../../../author/admin/index.html"> <img alt='' src='https://secure.gravatar.com/avatar/e588490dd5aa554e9d3402bcc0ff7d7b?s=150&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/e588490dd5aa554e9d3402bcc0ff7d7b?s=300&#038;d=mm&#038;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' loading='lazy'/> </a>
+                                  <div class="media-body">
+                                        <h4 class="media-heading"><span>By</span><a href="../../../../author/admin/index.html">admin</a></h4>
+                                                            <span class="mg-blog-date"><i class="fa fa-clock-o"></i> 
+                      Mar 6, 2020</span>
+                                      </div>
+                </div>
+              </div>
+              <img width="624" height="347" src="../../../../../wp-content/uploads/2020/03/image-20.png" class="img-responsive wp-post-image" alt="" loading="lazy" srcset="https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-20.png 624w, https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-20-300x167.png 300w" sizes="(max-width: 624px) 100vw, 624px" />              <article class="small single">
+                
+<h3>Connecting your Raspberry Pi</h3>
+
+
+
+<h4><a href="../../../../../../../argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.html"></a></h4>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="624" height="440" src="../../../../../../../argon40.com.br/learn/wp-content/uploads/2020/03/image-22.png" alt="" class="wp-image-155" srcset="https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-22.png 624w, https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-22-300x212.png 300w" sizes="(max-width: 624px) 100vw, 624px" /></figure></div>
+
+
+
+<h5>Micro USB Port (labeled USB)</h5>
+
+
+
+<ul><li>Connect a USB OTG micro B to a USB A cable adapter to be able to connect the USB devices.</li><li>Both the Zero and Zero W have only one micro USB port for peripheral devices. We recommend using the Mini Wireless USB Keyboard with Touchpad (available at <a href="../../../../../../index.html">www.argon40.com.br</a>) or any similar device.</li><li>You may use a powered USB hub to expand your ports in case you plan to connect other devices to your Zero/Zero W.</li></ul>
+
+
+
+<h5>Mini HDMI Port</h5>
+
+
+
+<ul><li>You may connect a standard HDMI cable to your Pi and monitor.</li></ul>
+
+
+
+<h5>Micro SD Card Port</h5>
+
+
+
+<ul><li>Insert a pre-loaded micro SD card into the Pi (either a NOOBS or a fully supported operating system). See <a href="https://www.raspberrypi.org/documentation/installation/installing-images/">https://www.raspberrypi.org/documentation/</a>      on how to prepare a new Micro SD card (NOOBS).</li><li>If you purchased the Argon 40 Raspberry Pi Zero Starter Kit, you can just plug in the Micro SD card with pre-installed NOOBS.</li></ul>
+
+
+
+<h5>4 GPIO Headers</h5>
+
+
+
+<ul><li>The Pi Zero and Zero W GPIO headers <sup><a href="#note1">[1]</a></sup> are unpopulated.</li><li>You can also use a 2&#215;20 male header or a 2&#215;20 female socket header. These come with the Argon40 Raspberry Pi Basic and Starter Kit. They are available at <a href="../../../../../../index.html">www.argon40.com.br</a>.</li></ul>
+
+
+
+<p><a href="#note1">[1]</a>
+For a more detailed explanation of the GPIO, please read <a href="https://argon40.com.br/resources">here</a>.</p>
+
+
+
+<h5>5 Micro USB Port 2 (Labeled PWR IN)</h5>
+
+
+
+<ul><li>Connect a 5V, 1.5Amp power supply to power up your Raspberry Pi Zero/Zero W.</li></ul>
+
+
+
+<p></p>
+
+
+
+<h3>Getting Started with your Raspberry Pi Zero and Zero W</h3>
+
+
+
+<p>*<strong>Note: you may skip steps 1 &amp; 2 if you have the SD card that
+comes with the Argon40 Starter Kit, as it has Raspberry Pi NOOBS pre-installed.</strong></p>
+
+
+
+<h5>1. Download NOOBS and format SD card</h5>
+
+
+
+<p>1.1 Download the NOOBS zip file for offline or network installation from <a href="http://www.raspberrypi.org/downloads/">http://www.raspberrypi.org/downloads</a>
+on your computer (Windows, Mac, or Linux).<br>
+1.2 Extract the ZIP files to a folder on your computer.<br>
+1.3 Format your SD card using the SD Association’s SD Formatter 4.0 for either
+Windows or Mac. Refer to <a href="https://www.sdcard.org/downloads/formatter_4/">https://www.sdcard.org/downloads/formatter_4/</a>
+for more details.</p>
+
+
+
+<h5>2. NOOBS files installation</h5>
+
+
+
+<p>2.1 Drag all the files in the extracted NOOBS folder and drop them into the SD card drive.<br> 2.2 When the transfer is finished, remove your SD card from your computer and insert it into your Raspberry Pi. Plug in your keyboard, mouse, monitor cables, and the SD card with NOOBS.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="480" height="382" src="../../../../../../../argon40.com.br/learn/wp-content/uploads/2020/03/image-23.png" alt="" class="wp-image-156" srcset="https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-23.png 480w, https://www.argon40.com.br/learn/wp-content/uploads/2020/03/image-23-300x239.png 300w" sizes="(max-width: 480px) 100vw, 480px" /></figure></div>
+
+
+
+<p> 2.3 Plug in the USB power cable to your Raspberry Pi Zero or Zero W. <br> 2.4 Your Raspberry Pi will boot, and a window will appear with a list of different operating systems that you can install. We recommend the Raspbian, a version of Linux’s “Debian” operating system. Tick the box next to it and click to Install.<br> 2.5 Raspbian will then begin installing! (Although, this may take a while!)</p>
+
+
+
+<h5>3 First boot and accessing the graphical user interface</h5>
+
+
+
+<p>3.1 When installation has completed, you may set the Pi’s configuration in
+the tab: <strong>Menu &gt; Preferences &gt; Raspberry Pi Configuration menu
+(raspi-config).</strong><br>
+3.2 For other settings the default ROOT login of your raspberry pi are as
+follows:</p>
+
+
+
+<p><strong>username:</strong> pi<br>
+<strong>password:</strong> raspberry</p>
+
+
+
+<p>Enjoy your Raspberry Pi Zero/Raspberry Pi Zero W!</p>
+                                                     <script>
+    function pinIt()
+    {
+      var e = document.createElement('script');
+      e.setAttribute('type','text/javascript');
+      e.setAttribute('charset','UTF-8');
+      e.setAttribute('src','../../../../../../../assets.pinterest.com/js/pinmarklet2a3b.js?r='+Math.random()*99999999);
+      document.body.appendChild(e);
+    }
+    </script>
+                     <div class="post-share">
+                          <div class="post-share-icons cf">
+                           
+                              <a href="https://www.facebook.com/sharer.php?u=https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/" class="link facebook" target="_blank" >
+                                <i class="fa fa-facebook"></i></a>
+                            
+            
+                              <a href="http://twitter.com/share?url=https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/&amp;text=Raspberry%20Pi%20Zero%20and%20Zero%20W%20Quick%20Start%20Guide" class="link twitter" target="_blank">
+                                <i class="fa fa-twitter"></i></a>
+            
+                              <a href="mailto:?subject=Raspberry%20Pi%20Zero%20and%20Zero%20W%20Quick%20Start%20Guide&#038;body=https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/" class="link email" target="_blank" >
+                                <i class="fa fa-envelope-o"></i></a>
+
+
+                              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/&amp;title=Raspberry%20Pi%20Zero%20and%20Zero%20W%20Quick%20Start%20Guide" class="link linkedin" target="_blank" >
+                                <i class="fa fa-linkedin"></i></a>
+
+                              <a href="javascript:pinIt();" class="link pinterest"><i class="fa fa-pinterest"></i></a>    
+                          </div>
+                    </div>
+
+              </article>
+            </div>
+		                    <div class="mg-featured-slider p-3 mb-4">
+                        <!--Start mg-realated-slider -->
+                        <div class="mg-sec-title">
+                            <!-- mg-sec-title -->
+                                                        <h4>Related Post</h4>
+                        </div>
+                        <!-- // mg-sec-title -->
+                           <div class="row">
+                                <!-- featured_post -->
+                                                                      <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                                                        style="background-image: url('../../../../../wp-content/uploads/2020/05/rasptendo_624px347px.jpg');" >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="../../../../category/how-tos/index.html" alt="View all posts in How to&#039;s"> 
+                                 How to&#039;s
+                             </a><a class="newsup-categories category-color-1" href="../../../../category/how-tos/projects/index.html" alt="View all posts in Projects"> 
+                                 Projects
+                             </a><a class="newsup-categories category-color-1" href="../../../../category/uncategorized/index.html" alt="View all posts in Uncategorized"> 
+                                 Uncategorized
+                             </a>                                          </div>                                             <h4 class="title"> <a href="../../../05/19/building-a-robot-buggy-pi/index.html" title="Permalink to: Building a Robot Buggy Pi">
+                                              Building a Robot Buggy Pi</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                             </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                        <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                                                        style="background-image: url('../../../../../wp-content/uploads/2020/03/ar1-recalbox.jpg');" >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="../../../../category/how-tos/argon-product/index.html" alt="View all posts in Argon40 Product"> 
+                                 Argon40 Product
+                             </a><a class="newsup-categories category-color-1" href="../../../../category/how-tos/index.html" alt="View all posts in How to&#039;s"> 
+                                 How to&#039;s
+                             </a>                                          </div>                                             <h4 class="title"> <a href="../../10/argon-one-installation-guide-for-recalbox/index.html" title="Permalink to: Argon ONE RecalBox Installation Guide">
+                                              Argon ONE RecalBox Installation Guide</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                             </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                        <!-- blog -->
+                                  <div class="col-md-4">
+                                    <div class="mg-blog-post-3 minh back-img" 
+                                                                        style="background-image: url('../../../../../wp-content/uploads/2020/03/osmc_meta.jpg');" >
+                                      <div class="mg-blog-inner">
+                                                                                      <div class="mg-blog-category"> <a class="newsup-categories category-color-1" href="../../../../category/how-tos/argon-product/index.html" alt="View all posts in Argon40 Product"> 
+                                 Argon40 Product
+                             </a><a class="newsup-categories category-color-1" href="../../../../category/how-tos/index.html" alt="View all posts in How to&#039;s"> 
+                                 How to&#039;s
+                             </a>                                          </div>                                             <h4 class="title"> <a href="../../10/argon-one-installation-guide-for-osmc/index.html" title="Permalink to: Argon ONE OSMC Installation Guide">
+                                              Argon ONE OSMC Installation Guide</a>
+                                             </h4>
+                                            <div class="mg-blog-meta"> 
+                                             </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <!-- blog -->
+                                                                </div>
+                            
+                    </div>
+                    <!--End mg-realated-slider -->
+                        </div>
+             <!--sidebar-->
+          <!--col-md-3-->
+            <aside class="col-md-3">
+                  
+<aside id="secondary" class="widget-area" role="complementary">
+	<div id="sidebar-right" class="mg-sidebar">
+		<div id="search-2" class="mg-widget widget_search"><form role="search" method="get" id="searchform" action="https://www.argon40.com.br/learn/">
+  <div class="input-group">
+    <input type="search" class="form-control" placeholder="Search" value="" name="s" />
+    <span class="input-group-btn btn-default">
+    <button type="submit" class="btn"> <i class="fa fa-search"></i> </button>
+    </span> </div>
+</form></div>
+		<div id="recent-posts-2" class="mg-widget widget_recent_entries">
+		<div class="mg-wid-title"><h6>Recent Posts</h6></div>
+		<ul>
+											<li>
+					<a href="../../../05/19/building-a-robot-buggy-pi/index.html">Building a Robot Buggy Pi</a>
+									</li>
+											<li>
+					<a href="../../10/argon-one-installation-guide-for-recalbox/index.html">Argon ONE RecalBox Installation Guide</a>
+									</li>
+											<li>
+					<a href="../../10/argon-one-installation-guide-for-osmc/index.html">Argon ONE OSMC Installation Guide</a>
+									</li>
+											<li>
+					<a href="../../10/argon-one-installation-guide-for-libreelec/index.html">Argon ONE LibreElec Installation Guide</a>
+									</li>
+											<li>
+					<a href="../../10/argon-one-case-overview/index.html">Argon ONE Pi 3 B+ Case Overview</a>
+									</li>
+					</ul>
+
+		</div><div id="categories-3" class="mg-widget widget_categories"><div class="mg-wid-title"><h6>Categories</h6></div>
+			<ul>
+					<li class="cat-item cat-item-9"><a href="../../../../category/how-tos/argon-product/index.html">Argon40 Product</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../../category/features/index.html">Features</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../../category/how-tos/index.html">How to&#039;s</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../../category/news/index.html">News</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../../category/how-tos/projects/index.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../../category/uncategorized/index.html">Uncategorized</a>
+</li>
+			</ul>
+
+			</div><div id="archives-3" class="mg-widget widget_archive"><div class="mg-wid-title"><h6>Archives</h6></div>
+			<ul>
+					<li><a href='../../../05/index.html'>May 2020</a></li>
+	<li><a href='../../index.html'>March 2020</a></li>
+			</ul>
+
+			</div>	</div>
+</aside><!-- #secondary -->
+            </aside>
+          <!--/col-md-3-->
+      <!--/sidebar-->
+          </div>
+  </div>
+</main>
+<!--==================== FOOTER AREA ====================-->
+        <footer> 
+            <div class="overlay" style="background-color: ;">
+                <!--Start mg-footer-widget-area-->
+                                 <!--End mg-footer-widget-area-->
+                <!--Start mg-footer-widget-area-->
+                <div class="mg-footer-bottom-area">
+                    <div class="container-fluid">
+                        <div class="divide-line"></div>
+                        <div class="row">
+                            <!--col-md-4-->
+                            <div class="col-md-6">
+                                                             <div class="site-branding-text">
+                              <h1 class="site-title"> <a href="../../../../../index.html" rel="home">LEARN and SHARE with Argon 40</a></h1>
+                              <p class="site-description">Imagine. Create. Share.</p>
+                              </div>
+                                                          </div>
+
+                             
+                            <div class="col-md-6 text-right text-xs">
+                                
+                            <ul class="mg-social">
+                                                                 </ul>
+
+
+                            </div>
+                            <!--/col-md-4-->  
+                             
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+                <!--End mg-footer-widget-area-->
+
+                <div class="mg-footer-copyright">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 text-xs">
+                                <p>
+                                <a href="https://wordpress.org/">
+								Proudly powered by WordPress								</a>
+								<span class="sep"> | </span>
+								Theme: Newsup by <a href="https://themeansar.com/" rel="designer">Themeansar</a>.								</p>
+                            </div>
+
+
+
+                            <div class="col-md-6 text-right text-xs">
+                                <ul id="menu-neve-web-agency-main-menu-1" class="info-right"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-361"><a href="../../../../../index.html">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-362"><a href="../../../../category/how-tos/index.html">How to&#8217;s</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-363"><a href="../../../../category/features/index.html">Features</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-364"><a href="../../../../category/news/index.html">News</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-384"><a href="../../../../../../index.html">SHOP</a></li>
+</ul>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/overlay-->
+        </footer>
+        <!--/footer-->
+    </div>
+    <!--/wrapper-->
+    <!--Scroll To Top-->
+    <a href="#" class="ta_upscr bounceInup animated"><i class="fa fa-angle-up"></i></a>
+    <!--/Scroll To Top-->
+<!-- /Scroll To Top -->
+<!-- Enter your scripts here --><script type='text/javascript' src='../../../../../wp-includes/js/comment-reply.min41a3.js?ver=5.8' id='comment-reply-js'></script>
+<script type='text/javascript' src='../../../../../wp-includes/js/wp-embed.min41a3.js?ver=5.8' id='wp-embed-js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/newsup/js/custom41a3.js?ver=5.8' id='newsup-custom-js'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	</body>
+
+<!-- Mirrored from www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Aug 2021 06:59:05 GMT -->
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: argon40.com.br @ 2021-08-16 06:56:17 by W3 Total Cache
+-->
