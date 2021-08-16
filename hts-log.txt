@@ -1,0 +1,269 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 16 Aug 2021 04:19:35 at https://www.argon40.com.br/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.argon40.com.br/ -O1 "C:\My Web Sites\argon40" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+04:19:40	Error: 	"Not Found" (404) at link https://www.argon40.com.br/https (from https://www.argon40.com.br/)
+04:28:39	Error: 	"Not Found" (404) at link https://www.argon40.com.br/media/catalog/product/ (from https://www.argon40.com.br/)
+04:29:06	Warning: 	warning: file size on disk (69073) does not have the expected size (68614))
+04:29:07	Warning: 	warning: file size on disk (3348) does not have the expected size (3303))
+04:30:34	Error: 	"Not Found" (404) at link https://www.argon40.com.br/media/wysiwyg/smartwave/porto/homepage/14/slider/03.png (from https://www.argon40.com.br/)
+04:31:27	Error: 	"Not Found" (404) at link https://www.argon40.com.br/catalog/product/view/id/52/s/argon-one-raspberry-pi-4-case/category/4/ (from https://www.argon40.com.br/)
+04:31:55	Error: 	"Not Found" (404) at link https://www.argon40.com.br/blog/ (from https://www.argon40.com.br/)
+04:40:17	Error: 	"Not Found" (404) at link https://www.argon40.com.br/static/version1603255180/frontend/Smartwave/porto/en_US/StripeIntegration_Payments/svg/fpx/maybank2e.svg (from https://www.argon40.com.br/static/version1603255180/_cache/merged/867efcd510a665dde9a40146a2ece2d8.min.css)
+04:47:27	Warning: 	warning: file size on disk (78583) does not have the expected size (78076))
+04:47:51	Warning: 	warning: file size on disk (15243) does not have the expected size (15180))
+04:47:53	Warning: 	warning: file size on disk (4548) does not have the expected size (4527))
+04:47:54	Warning: 	warning: file size on disk (1780) does not have the expected size (1759))
+04:51:47	Warning: 	warning: file size on disk (1076) does not have the expected size (1067))
+04:53:13	Warning: 	warning: file size on disk (1064) does not have the expected size (1055))
+04:53:45	Warning: 	warning: file size on disk (1877) does not have the expected size (1856))
+04:54:12	Warning: 	warning: file size on disk (1749) does not have the expected size (1728))
+04:55:30	Warning: 	warning: file size on disk (16133) does not have the expected size (16112))
+04:56:00	Warning: 	warning: file size on disk (16135) does not have the expected size (16114))
+04:56:00	Warning: 	warning: file size on disk (32783) does not have the expected size (32495))
+04:56:02	Warning: 	warning: file size on disk (1161) does not have the expected size (1152))
+04:56:09	Warning: 	warning: file size on disk (1054) does not have the expected size (1045))
+04:56:10	Warning: 	warning: file size on disk (1035) does not have the expected size (1026))
+04:57:00	Warning: 	warning: file size on disk (1135) does not have the expected size (1126))
+04:57:03	Warning: 	warning: file size on disk (1051) does not have the expected size (1042))
+04:57:37	Warning: 	warning: file size on disk (1143) does not have the expected size (1134))
+05:04:41	Error: 	"Not Found" (404) at link https://www.argon40.com.br/raspberry-pi/https (from https://www.argon40.com.br/raspberry-pi/single-board-computer.html)
+05:10:50	Error: 	"Not Found" (404) at link https://www.argon40.com.br/raspberry-pi-cases/https (from https://www.argon40.com.br/raspberry-pi-cases/argon.html)
+05:17:24	Error: 	"Not Found" (404) at link https://www.argon40.com.br/catalogsearch/advanced/https (from https://www.argon40.com.br/catalogsearch/advanced/)
+05:18:01	Error: 	"Not Found" (404) at link https://www.argon40.com.br/checkout/cart/https (from https://www.argon40.com.br/checkout/cart/)
+05:22:44	Error: 	"Not Found" (404) at link https://www.argon40.com.br/learn/wp-content/themes/newsup/images/breadcrumb-back.jpg (from https://www.argon40.com.br/learn/wp-content/themes/newsup/style.css?ver=5.8)
+05:22:44	Error: 	"Not Found" (404) at link https://www.argon40.com.br/learn/wp-content/themes/newsup/css/grabbing.png (from https://www.argon40.com.br/learn/wp-content/themes/newsup/css/owl.carousel.css?ver=5.8)
+05:23:14	Warning: 	warning: file size on disk (1199) does not have the expected size (1190))
+05:23:18	Warning: 	warning: file size on disk (1061) does not have the expected size (1052))
+05:23:23	Warning: 	warning: file size on disk (1050) does not have the expected size (1041))
+05:24:03	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=424
+05:24:03	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=424 to https://www.argon40.com.br/learn/index.php/2020/05/19/building-a-robot-buggy-pi/
+05:24:03	Error: 	"Method Not Allowed" (405) at link https://www.argon40.com.br/learn/xmlrpc.php (from https://www.argon40.com.br/learn/index.php/2020/05/19/building-a-robot-buggy-pi/)
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/strip-wire.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor-remove-clip.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/solder-motor.gif
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/wires-in-board.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/wire-in-block.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/battery-holder.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/battery-terminals.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/gpio-board.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motors_labelled.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor-test.gif
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/motor_direction.png
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-0.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-1.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-2.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-3.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-4.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-5.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-6.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-7.jpg
+05:24:04	Warning: 	File not parsed, looks like binary: https://projects-static.raspberrypi.org/projects/build-a-buggy/2919a77a9ddf6a074d94c87ab7bfa8fea0b12337/en/images/chassis-8.jpg
+05:24:05	Warning: 	warning: file size on disk (16128) does not have the expected size (16107))
+05:24:50	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=305
+05:24:50	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=305 to https://www.argon40.com.br/learn/index.php/2020/03/10/argon-one-installation-guide-for-recalbox/
+05:25:37	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=302
+05:25:37	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=302 to https://www.argon40.com.br/learn/index.php/2020/03/10/argon-one-installation-guide-for-osmc/
+05:25:37	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=299
+05:25:37	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=299 to https://www.argon40.com.br/learn/index.php/2020/03/10/argon-one-installation-guide-for-libreelec/
+05:25:37	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=271
+05:25:37	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=271 to https://www.argon40.com.br/learn/index.php/2020/03/10/argon-one-case-overview/
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-53.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-53.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-53.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-53.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-53.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-54.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-54.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-54.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-54.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-54.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-55.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-55.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-55.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-55.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-55.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-56.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-56.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-56.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-56.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-56.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-57.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-57.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-57.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-57.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-57.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-58.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-58.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-58.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-58.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-58.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-59.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-59.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-59.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-59.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-59.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-60.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-60.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-60.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-60.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-60.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-61.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-61.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-61.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-61.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-61.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-62.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-62.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-62.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-62.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-62.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-63.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-63.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-63.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-63.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-63.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-64.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-64.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-64.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-64.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-64.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-65.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-65.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-65.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-65.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-65.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-66.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-66.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-66.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-66.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-66.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-67.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-67.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-67.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-67.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-67.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-68.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-68.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-68.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-68.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-68.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-69.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-69.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-69.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-69.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-69.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-70.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-70.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-70.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-70.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-70.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-71.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-71.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-71.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-71.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-71.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-72.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-72.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-72.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-72.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-72.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-73.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-73.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-73.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-73.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-73.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-74.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-74.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-74.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-74.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-74.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-75.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-75.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-75.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-75.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-75.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-76.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-76.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-76.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-76.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-76.png)
+05:25:37	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-77.png
+05:25:37	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-77.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-77.png
+05:25:37	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-77.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-77.png)
+05:25:37	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=140
+05:25:37	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=140 to https://www.argon40.com.br/learn/index.php/2020/03/05/install-retropie-on-your-raspberry-pi-and-play-your-first-retro-game/
+05:25:38	Warning: 	warning: file size on disk (29646) does not have the expected size (29364))
+05:26:07	Warning: 	warning: file size on disk (66295) does not have the expected size (65824))
+05:26:07	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-17.png
+05:26:07	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-17.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-17.png
+05:26:07	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-17.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-17.png)
+05:26:07	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-18.png
+05:26:07	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-18.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-18.png
+05:26:07	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-18.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-18.png)
+05:26:07	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/gamepad_config_2.png (from https://www.argon40.com.br/learn/index.php/2020/03/05/install-retropie-on-your-raspberry-pi-and-play-your-first-retro-game/)
+05:26:08	Warning: 	Moved Permanently for www.argon40.com.br/robots.txt
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/robots.txt and https://argon40.com.br/robots.txt
+05:26:08	Warning: 	Warning moved treated for www.argon40.com.br/robots.txt (real one is https://argon40.com.br/robots.txt)
+05:26:08	Warning: 	Moved Permanently for www.argon40.com.br/resources/how-to-enable-your-raspberry-pi-3-wifi-via-terminal/
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/how-to-enable-your-raspberry-pi-3-wifi-via-terminal/ and https://argon40.com.br/resources/how-to-enable-your-raspberry-pi-3-wifi-via-terminal/
+05:26:08	Warning: 	File has moved from www.argon40.com.br/resources/how-to-enable-your-raspberry-pi-3-wifi-via-terminal/ to https://argon40.com.br/resources/how-to-enable-your-raspberry-pi-3-wifi-via-terminal/
+05:26:08	Warning: 	Moved Permanently for www.argon40.com.br/resources/how-to-enable-ssh-in-your-raspberry-pi-3/
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/how-to-enable-ssh-in-your-raspberry-pi-3/ and https://argon40.com.br/resources/how-to-enable-ssh-in-your-raspberry-pi-3/
+05:26:08	Warning: 	File has moved from www.argon40.com.br/resources/how-to-enable-ssh-in-your-raspberry-pi-3/ to https://argon40.com.br/resources/how-to-enable-ssh-in-your-raspberry-pi-3/
+05:26:08	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/SNES.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/SNES.png and https://argon40.com.br/resources/wp-content/uploads/2017/09/SNES.png
+05:26:08	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/SNES.png (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/SNES.png)
+05:26:08	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=269
+05:26:08	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=269 to https://www.argon40.com.br/learn/index.php/2020/03/10/faq-raspberry-pi-zero-and-zero-w/
+05:26:08	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=264
+05:26:08	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=264 to https://www.argon40.com.br/learn/index.php/2020/03/10/rasptendo-recalbox-support/
+05:26:08	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=260
+05:26:08	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=260 to https://www.argon40.com.br/learn/index.php/2020/03/10/rasptendo-the-slickest-retro-gaming-case-for-raspberry-pi-3/
+05:26:08	Error: 	"Not Found" (404) at link https://www.argon40.com.br/rasptendo.html (from https://www.argon40.com.br/learn/index.php/2020/03/10/rasptendo-the-slickest-retro-gaming-case-for-raspberry-pi-3/)
+05:26:08	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=179
+05:26:08	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=179 to https://www.argon40.com.br/learn/index.php/2020/03/06/setting-up-your-rasptendo-console/
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-39.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-39.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-39.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-39.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-39.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-40.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-40.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-40.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-40.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-40.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-41.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-41.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-41.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-41.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-41.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-43.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-43.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-43.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-43.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-43.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-44.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-44.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-44.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-44.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-44.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-48.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-48.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-48.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-48.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-48.png)
+05:26:08	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-49.png
+05:26:08	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-49.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-49.png
+05:26:08	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-49.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-49.png)
+05:26:08	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=173
+05:26:08	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=173 to https://www.argon40.com.br/learn/index.php/2020/03/06/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/
+05:26:08	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/etcher.png (from https://www.argon40.com.br/learn/index.php/2020/03/06/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/)
+05:26:38	Warning: 	warning: file size on disk (1103) does not have the expected size (1094))
+05:26:42	Warning: 	warning: file size on disk (1205) does not have the expected size (1196))
+05:28:15	Error: 	"Not Found" (404) at link https://www.argon40.com.br/raspberry/raspberry-pi-zero-family/raspberry-pi-zero-w.html (from https://www.argon40.com.br/raspberry-pi-zero-wh-with-header.html)
+05:31:42	Error: 	"Not Found" (404) at link https://www.argon40.com.br/6mm-/https (from https://www.argon40.com.br/6mm-/-3mp-lens-raspberry-pi.html)
+05:31:46	Error: 	"Not Found" (404) at link https://www.argon40.com.br/16mm-/https (from https://www.argon40.com.br/16mm-/-10mp-lens-raspberry-pi-camera.html)
+05:41:29	Error: 	"Not Found" (404) at link https://www.argon40.com.br/media/captcha/base/588e779a00d0ad5856bc5e387fb20197.png (from https://www.argon40.com.br/customer/account/forgotpassword/)
+05:41:32	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=164
+05:41:32	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=164 to https://www.argon40.com.br/learn/index.php/2020/03/06/a-comprehensive-guide-on-raspberry-pi-3-and-raspberry-pi-zero-and-zero-w-gpio-pinout/
+05:41:32	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-32.png
+05:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-32.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-32.png
+05:41:32	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-32.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-32.png)
+05:41:32	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=158
+05:41:32	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=158 to https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-3/
+05:41:32	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-26.png
+05:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-26.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-26.png
+05:41:32	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-26.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-26.png)
+05:41:32	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.17-PM.png (from https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-3/)
+05:41:32	Warning: 	Moved Permanently for www.argon40.com.br/resources/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/
+05:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/ and https://argon40.com.br/resources/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/
+05:41:32	Warning: 	File has moved from www.argon40.com.br/resources/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/ to https://argon40.com.br/resources/installing-raspberry-pi-operating-systems-in-your-raspberry-pi/
+05:41:32	Error: 	"Not Found" (404) at link https://www.argon40.com.br/resources/http:/www.argon40.com.br/resources/a-comprehensive-guide-on-raspberry-pi-gpio-pinout/ (from https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-3/)
+05:41:32	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.54-PM.png
+05:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.54-PM.png and https://argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.54-PM.png
+05:41:32	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.54-PM.png (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.30.54-PM.png)
+05:41:32	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=91
+05:41:32	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=91 to https://www.argon40.com.br/learn/index.php/2020/03/05/get-to-know-your-raspberry-pi-3/
+05:41:34	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=151
+05:41:34	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=151 to https://www.argon40.com.br/learn/index.php/2020/03/06/quick-start-guide-for-raspberry-pi-zero-and-zero-w/
+05:41:34	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.png and https://argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.png
+05:41:34	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.png (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/Screen-Shot-2017-09-06-at-2.29.33-PM.png)
+05:41:34	Warning: 	Moved Permanently for https://www.argon40.com.br/learn/?p=128
+05:41:34	Warning: 	File has moved from https://www.argon40.com.br/learn/?p=128 to https://www.argon40.com.br/learn/index.php/2020/03/05/how-to-enable-ssh-on-your-raspberry-pi-3-raspberry-pi-zero-and-raspberry-pi-zero-w/
+05:41:34	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/6.png (from https://www.argon40.com.br/learn/index.php/2020/03/05/how-to-enable-ssh-on-your-raspberry-pi-3-raspberry-pi-zero-and-raspberry-pi-zero-w/)
+05:41:34	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/8.png (from https://www.argon40.com.br/learn/index.php/2020/03/05/how-to-enable-ssh-on-your-raspberry-pi-3-raspberry-pi-zero-and-raspberry-pi-zero-w/)
+05:41:34	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/1.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/1.png and https://argon40.com.br/resources/wp-content/uploads/2017/09/1.png
+05:41:34	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/1.png (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/1.png)
+05:41:34	Error: 	"Not Found" (404) at link https://argon40.com.br/resources/wp-content/uploads/2017/09/2.png (from https://www.argon40.com.br/learn/index.php/2020/03/05/how-to-enable-ssh-on-your-raspberry-pi-3-raspberry-pi-zero-and-raspberry-pi-zero-w/)
+05:41:34	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-7.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-7.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-7.png
+05:41:34	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-7.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-7.png)
+05:41:34	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-8.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-8.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-8.png
+05:41:34	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-8.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-8.png)
+05:41:34	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/4.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/4.png and https://argon40.com.br/resources/wp-content/uploads/2017/09/4.png
+05:41:34	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/4.png (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/4.png)
+05:41:34	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-11.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-11.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-11.png
+05:41:34	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-11.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-11.png)
+05:41:34	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-12.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-12.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-12.png
+05:41:34	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-12.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-12.png)
+05:41:34	Warning: 	Moved Permanently for argon40.com.br/learn/wp-content/uploads/2020/03/image-13.png
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: argon40.com.br/learn/wp-content/uploads/2020/03/image-13.png and https://argon40.com.br/learn/wp-content/uploads/2020/03/image-13.png
+05:41:34	Warning: 	Warning moved treated for argon40.com.br/learn/wp-content/uploads/2020/03/image-13.png (real one is https://argon40.com.br/learn/wp-content/uploads/2020/03/image-13.png)
+05:41:34	Warning: 	Moved Permanently for www.argon40.com.br/resources/wp-content/uploads/2017/09/3.jpg
+05:41:34	Warning: 	Redirected link is identical because of 'URL Hack' option: www.argon40.com.br/resources/wp-content/uploads/2017/09/3.jpg and https://argon40.com.br/resources/wp-content/uploads/2017/09/3.jpg
+05:41:34	Warning: 	Warning moved treated for www.argon40.com.br/resources/wp-content/uploads/2017/09/3.jpg (real one is https://argon40.com.br/resources/wp-content/uploads/2017/09/3.jpg)
+05:47:54	Error: 	"Not Found" (404) at link https://www.argon40.com.br/media/captcha/base/0d27db35b9d7fefc6d9f9df06fa1a4d6.png (from https://www.argon40.com.br/customer/account/forgotpassword/https)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 33 minutes 32 seconds : 885 links scanned, 791 files written (109120427 bytes overall), 424 files updated [7158507 bytes received at 1275 bytes/sec], 19336784 bytes transferred using HTTP compression in 461 files, ratio 24%, 1.7 requests per connection
+(26 errors, 232 warnings, 0 messages)
